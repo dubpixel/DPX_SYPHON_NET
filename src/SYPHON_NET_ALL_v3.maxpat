@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -1277.0, 150.0, 479.0, 650.0 ],
+		"rect" : [ -1636.0, 130.0, 1031.0, 719.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,74 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-26",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 49.29158, 819.0, 100.0, 100.0 ],
+					"pic" : "dubpixel_logo_200k_dkpurp.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 8.383392, 620.675842, 160.398224, 34.523808 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Silkscreen",
+					"fontsize" : 9.0,
+					"id" : "obj-23",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 27.87471, 846.333374, 95.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 190.194397, 658.175842, 191.833496, 18.0 ],
+					"style" : "",
+					"text" : "J.Fleitell  - i@dubpixel.tv",
+					"textcolor" : [ 0.196542, 0.101598, 0.541176, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Silkscreen",
+					"fontsize" : 9.0,
+					"id" : "obj-60",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 27.87471, 828.333374, 97.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 190.194397, 640.675842, 114.0, 18.0 ],
+					"style" : "",
+					"text" : "v3 - 2.19.2017",
+					"textcolor" : [ 0.196542, 0.101598, 0.541176, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Silkscreen",
+					"fontsize" : 12.0,
+					"id" : "obj-63",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 26.666672, 1011.933289, 208.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 190.194397, 620.675842, 208.0, 21.0 ],
+					"style" : "",
+					"text" : "SYPHOn NET DOOHICKY",
+					"textcolor" : [ 0.196078, 0.101961, 0.541176, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Silkscreen",
 					"fontsize" : 14.0,
 					"id" : "obj-220",
@@ -62,7 +130,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 747.333374, 1141.533325, 215.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.183395, 147.333344, 140.249969, 24.0 ],
+					"presentation_rect" : [ 16.183395, 188.333344, 140.249969, 24.0 ],
 					"style" : "",
 					"text" : "FROM NETWORK"
 				}
@@ -250,7 +318,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 545.833374, 1511.399902, 80.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.133392, 177.333344, 80.0, 35.0 ],
+					"presentation_rect" : [ 320.133392, 151.333344, 95.0, 35.0 ],
 					"style" : ""
 				}
 
@@ -281,7 +349,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 732.333374, 1126.533325, 215.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.133392, 153.724976, 147.0, 24.0 ],
+					"presentation_rect" : [ 315.700012, 188.333344, 147.0, 24.0 ],
 					"style" : "",
 					"text" : "SCREEN CAPTURE"
 				}
@@ -393,14 +461,14 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Silkscreen",
-					"fontsize" : 10.0,
+					"fontsize" : 14.0,
 					"id" : "obj-206",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 737.333313, 1059.666748, 99.0, 19.0 ],
+					"patching_rect" : [ 737.333313, 1059.666748, 135.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.349976, 445.329102, 99.0, 19.0 ],
+					"presentation_rect" : [ 281.349976, 445.329102, 135.0, 24.0 ],
 					"style" : "",
 					"text" : "TO NETWORK"
 				}
@@ -410,16 +478,16 @@
 				"box" : 				{
 					"attr" : "connected",
 					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontname" : "Silkscreen",
+					"fontsize" : 10.0,
 					"id" : "obj-202",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 733.333313, 927.583374, 193.0, 23.0 ],
+					"patching_rect" : [ 733.333313, 927.583374, 192.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 247.916687, 533.5, 193.0, 23.0 ],
+					"presentation_rect" : [ 247.916687, 533.5, 192.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -428,16 +496,16 @@
 				"box" : 				{
 					"attr" : "port",
 					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontname" : "Silkscreen",
+					"fontsize" : 10.0,
 					"id" : "obj-203",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 733.333313, 902.583374, 193.0, 23.0 ],
+					"patching_rect" : [ 733.333313, 902.583374, 196.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 247.916687, 506.504089, 193.0, 23.0 ],
+					"presentation_rect" : [ 247.916687, 506.504089, 196.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -446,16 +514,16 @@
 				"box" : 				{
 					"attr" : "ip",
 					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontname" : "Silkscreen",
+					"fontsize" : 10.0,
 					"id" : "obj-204",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 733.333313, 879.333374, 193.0, 23.0 ],
+					"patching_rect" : [ 733.333313, 879.333374, 197.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 247.916687, 479.87915, 193.0, 23.0 ],
+					"presentation_rect" : [ 247.916687, 479.87915, 197.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -1556,14 +1624,14 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Silkscreen",
-					"fontsize" : 10.0,
+					"fontsize" : 14.0,
 					"id" : "obj-57",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1072.750122, 889.333374, 95.0, 19.0 ],
+					"patching_rect" : [ 1072.750122, 889.333374, 129.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.78334, 580.233276, 145.0, 19.0 ],
+					"presentation_rect" : [ 54.78334, 580.233276, 197.0, 24.0 ],
 					"style" : "",
 					"text" : "TO SYPHON"
 				}
@@ -1716,14 +1784,14 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Silkscreen",
-					"fontsize" : 10.0,
+					"fontsize" : 14.0,
 					"id" : "obj-84",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.166626, 588.666626, 106.0, 19.0 ],
+					"patching_rect" : [ 259.166626, 588.666626, 145.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.78334, 445.329102, 198.0, 19.0 ],
+					"presentation_rect" : [ 54.78334, 445.329102, 271.0, 24.0 ],
 					"style" : "",
 					"text" : "TO WINDOW"
 				}
@@ -2265,16 +2333,16 @@
 				"box" : 				{
 					"attr" : "servername",
 					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontname" : "Silkscreen",
+					"fontsize" : 10.0,
 					"id" : "obj-12",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1081.716675, 989.333374, 193.0, 23.0 ],
+					"patching_rect" : [ 1081.716675, 989.333374, 197.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 217.683365, 579.733276, 193.0, 23.0 ],
+					"presentation_rect" : [ 217.683365, 579.733276, 197.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -2291,7 +2359,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 473.0, 1026.502075, 80.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.183395, 177.333344, 80.0, 35.0 ],
+					"presentation_rect" : [ 16.183395, 151.333344, 80.0, 35.0 ],
 					"style" : ""
 				}
 
@@ -2428,8 +2496,8 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Silkscreen",
+					"fontsize" : 10.0,
 					"id" : "obj-21",
 					"maxclass" : "jit.fpsgui",
 					"numinlets" : 1,
@@ -2437,7 +2505,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 67.0, 450.0, 80.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.583389, 515.0, 80.0, 35.0 ],
+					"presentation_rect" : [ 138.550095, 524.0, 80.0, 35.0 ],
 					"style" : ""
 				}
 
@@ -2755,7 +2823,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 78.666664, 1153.06665, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.825027, -1.616699, 483.050049, 640.333313 ],
+					"presentation_rect" : [ -2.825027, -1.616699, 491.050049, 681.333313 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -3925,6 +3993,12 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "dubpixel_logo_200k_dkpurp.png",
+				"bootpath" : "~/Documents/_...SHOW_FILES/_...CIRCUIT_PROJECTS/GLOVE_PROJECT/ctrl_software/src",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jit.gl.syphonserver.mxo",
 				"type" : "iLaX"
 			}
